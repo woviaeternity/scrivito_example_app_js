@@ -52,7 +52,7 @@ function EventDate({ date }) {
     );
   }
 
-  return formatDate(date, "mm/dd/yyyy");
+  return formatDate(date, "mm/yyyy");
 }
 
 const EventLocation = Scrivito.connect(({ event }) => {
